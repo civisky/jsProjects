@@ -1,0 +1,29 @@
+div#mobileDisplay {
+    /* display: none; */
+}
+
+div#desktopDisplay > ul  {
+    list-style: none;
+    
+}
+
+div#desktopDisplay > ul > li {
+    display: inline;
+}
+
+div#desktopDisplay > ul > li#left{
+    text-align: left;
+}
+
+div#desktopDisplay > ul > li#rigth{
+    text-align: right;
+}
+
+
+
+
+
+div#mobileDisplay > ul{
+
+
+}

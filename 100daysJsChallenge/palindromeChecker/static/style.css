@@ -1,0 +1,63 @@
+#mainContainer {
+  width: 460px;
+  /* border: #ff4500 2px solid; */
+  margin: auto;
+  background-color: royalblue;
+  padding: 15px;
+}
+
+#mainContainer > #appHeader {
+  color: white;
+  text-align: center;
+  font-size: larger;
+  margin: 0 auto;
+  padding: 2px;
+}
+
+#mainContainer > #inputDiv {
+  width: 90%;
+  margin: auto;
+  /* border: 2px red solid; */
+}
+
+#mainContainer > #inputDiv > input {
+  margin: auto;
+  padding: 0 10;
+  width: 100%;
+  display: inline;
+  border: 0;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* #mainContainer > #colorDisplay {
+  color: red;
+  font-size: 24px;
+  text-align: center;
+  margin: auto;
+  background-color: white;
+} */
+
+main div hr {
+  width: 90%;
+  margin: 15px auto;
+}
+
+#mainContainer > #ctrlBtn {
+  text-align: center;
+  margin: 10px;
+}
+
+#mainContainer > #ctrlBtn > #checkBtn {
+  margin: auto;
+  /* color: #0c0c0c; */
+  width: 25%;
+  height: 35px;
+  font-weight: 600;
+}
+
+/* #checkBtn {
+  background-color: grey;
+  color: white;
+} */

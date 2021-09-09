@@ -1,0 +1,17 @@
+
+#reviewModal{
+    width: 60%;
+    border: black 2px solid;
+    
+}
+
+div img{
+width: 40%;
+margin: 10px auto;
+
+}
+
+#reviewModal > div {
+    margin: 10px;
+    text-align: center;
+}

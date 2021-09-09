@@ -1,0 +1,10 @@
+body  div {
+    margin: 5px;
+    padding: 5px; 
+ 
+ }
+ 
+ div > p {
+     color: blue;
+     font-family: cursive;
+ }
