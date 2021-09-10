@@ -18,4 +18,9 @@ checkBtn.addEventListener("click", function(e) {
     displayDiv.style.display = "block";
     displayDiv.textContent = '"' + inputText + '" has ' + vowelCount + " vowel(s) [" + occuringVowels + " ]";
 
+    setTimeout(() => {
+        displayDiv.style.display = "none";
+        document.getElementById("inputText").value = "";
+    }, 1700);
+
 })
