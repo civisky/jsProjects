@@ -1,0 +1,44 @@
+#mainContainer {
+  width: 460px;
+  /* border: #ff4500 2px solid; */
+  margin: auto;
+  background-color: royalblue;
+  padding: 30px 15px;
+}
+
+#mainContainer > #appHeader {
+  color: white;
+  text-align: center;
+  font-size: larger;
+  padding: 2px;
+}
+
+#mainContainer > p {
+  margin: 0;
+  font-size: 36px;
+  text-align: center;
+  color: white;
+}
+
+main div hr {
+  width: 90%;
+  margin: 15px auto;
+}
+
+#mainContainer > #inputDiv {
+  width: 90%;
+  margin: auto;
+  /* border: 2px red solid; */
+}
+
+#mainContainer > #inputDiv > input {
+  margin: auto;
+  padding: 0 10;
+  width: 100%;
+  display: inline;
+  border: 0;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+}

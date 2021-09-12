@@ -21,6 +21,12 @@ checkBtn.addEventListener("click", function(e) {
     setTimeout(() => {
         displayDiv.style.display = "none";
         document.getElementById("inputText").value = "";
-    }, 1700);
+    }, 3000);
 
 })
+
+
+
+x = 0;
+x = x + 1;
+x += 1;
