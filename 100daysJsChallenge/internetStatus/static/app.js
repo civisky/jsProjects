@@ -17,12 +17,11 @@ function checkStatus(e) {
         statusImg.src = connected;
         statusAlert.innerText = "Connected!";
         statusAlert.style.color = "blue"
-        console.log("connected");
         
     } else {
         statusImg.src = disconnected;
         statusAlert.innerText = "No internet Connection!";
-        console.log("disconnected");
+        statusAlert.style.color = "red"
          
     }
 }
