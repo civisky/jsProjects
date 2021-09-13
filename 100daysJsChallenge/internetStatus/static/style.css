@@ -1,0 +1,54 @@
+#mainContainer {
+  width: 460px;
+  /* border: #ff4500 2px solid; */
+  margin: auto;
+  background-color: royalblue;
+  padding: 15px;
+}
+
+#mainContainer > #appHeader {
+  color: white;
+  text-align: center;
+  font-size: larger;
+  margin: 0 auto;
+  padding: 2px;
+}
+
+#mainContainer > #connectionStatus {
+  width: 80%;
+  margin: auto;
+}
+
+#mainContainer > #connectionStatus > img {
+  width: 180px;
+  height: 180px;
+  padding: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* #mainContainer > #colorDisplay {
+  color: red;
+  font-size: 24px;
+  text-align: center;
+  margin: auto;
+  background-color: white;
+} */
+
+main div hr {
+  width: 90%;
+  margin: 15px auto;
+}
+
+#mainContainer > #messageAlert {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  font-size: 36px;
+  color: red;
+  text-align: center;
+}
