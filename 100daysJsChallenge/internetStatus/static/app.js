@@ -9,7 +9,8 @@ let disconnected = "./static/images/noInternet.png"
 window.addEventListener("load", checkConnStatus());
 
 function checkConnStatus() {
-    setInterval(checkStatus,1500);
+    setInterval(checkStatus, 1500);
+    
 }
 
 function checkStatus(e) {

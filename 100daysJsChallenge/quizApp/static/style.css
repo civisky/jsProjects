@@ -1,0 +1,64 @@
+body {
+  background-color: royalblue;
+}
+
+#mainDiv {
+  background-color: royalblue;
+  width: 100%;
+  height: 600px;
+  border: red 2px solid;
+}
+
+#mainDiv > #appDiv {
+  border: red 2px solid;
+  width: 400px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12px;
+}
+
+#mainDiv > #appDiv > #quizHeader {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  background-color: purple;
+}
+
+#mainDiv > #appDiv > #quizHeader > h2 {
+  font-size: 28px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+#mainDiv > #appDiv > #quizSubHeader {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mainDiv > #appDiv > #quizSubHeader > span {
+  display: inline;
+}
+
+#mainDiv > #appDiv > #quizSubHeader > span#quizCounter > h4 {
+  text-align: left;
+}
+
+#mainDiv > #appDiv > #quizSubHeader > span#quizCounter > span#quizTimer {
+  text-align: right;
+}
+#mainDiv > #appDiv > #quizOptions {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mainDiv > #appDiv > #quizOptions > button {
+  display: block;
+  width: 95%;
+  text-align: left;
+  margin: 7px;
+}
