@@ -1,13 +1,18 @@
 body {
   background-color: royalblue;
+  margin: 0; /*remove the annoying margin added by the browser */
+  height: 100vh; /*set the height to match the viewport height */
+  display: flex;
+  flex-direction: column; /*make sure the footer sits below the content */
+  justify-content: center; /*center the contents vertically */
 }
 
-#mainDiv {
+/* #mainDiv {
   background-color: royalblue;
   width: 100%;
   height: 600px;
   border: red 2px solid;
-}
+} */
 
 #mainDiv > #appDiv {
   border: red 2px solid;
@@ -47,8 +52,10 @@ body {
   text-align: left;
 }
 
-#mainDiv > #appDiv > #quizSubHeader > span#quizCounter > span#quizTimer {
+#mainDiv > #appDiv > #quizSubHeader > h4 > span#quizTimer {
+  align-items: right;
   text-align: right;
+  color: red;
 }
 #mainDiv > #appDiv > #quizOptions {
   width: 75%;
