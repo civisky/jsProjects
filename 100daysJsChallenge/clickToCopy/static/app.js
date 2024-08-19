@@ -16,7 +16,16 @@ copyBtn.addEventListener("click", function (e) {
     } else {
         navigator.clipboard.writeText(copiedText);
         copyBtn.innerText = "Copied!";
-        alert("Text copied to clipboard!")
+        //display the copied text
+        // displayDiv.style.display = "block";
+        // displayDiv.textContent = copiedText;;
+        // setTimeout(() => {
+        //     displayDiv.style.display = "none";
+        // }, 1500);
+
+
+
+        alert("'" + copiedText + "' copied to clipboard!")
 
         //    sets a timer to revert the button and input field to default state after 3 seconds
         setTimeout(() => {
