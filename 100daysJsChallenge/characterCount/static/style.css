@@ -1,12 +1,25 @@
 #mainContainer {
-  max-width: 900px;
-  /* border: #ff4500 2px solid; */
-  margin: auto;
   background-color: royalblue;
-  padding: 30px 15px;
+  height: 100vh;
+  /* border: #ff4500 2px solid;
+  max-width: 900px;
+  margin: auto;
+   padding: 30px 15px;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+    */
+}
+
+.mainContainer{
+  display: flex;
+  margin: 0, auto;
+  padding: 0, 20;
+  max-width: 100px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  border: #ff4500 2px solid;
+
 }
 
 #mainContainer > #appHeader {
