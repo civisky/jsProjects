@@ -1,9 +1,12 @@
 #mainContainer {
-  width: 460px;
+  max-width: 900px;
   /* border: #ff4500 2px solid; */
   margin: auto;
   background-color: royalblue;
   padding: 30px 15px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #mainContainer > #appHeader {
